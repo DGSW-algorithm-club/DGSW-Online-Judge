@@ -13,7 +13,10 @@ export default () => {
                 <span>랭킹</span>
                 <span>게시판</span>
             </style.container>
-            <style.authForm />
+            <style.authForm>
+				<style.authButton>Sign In</style.authButton>
+				<style.authButton>Sign Up</style.authButton>
+			</style.authForm>
         </style.background>
     )
 }

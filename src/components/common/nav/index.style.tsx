@@ -27,6 +27,24 @@ export const container = styled.div`
 export const authForm = styled.div`
     width: 20%;
     height: 80%;
-    border: 1px solid black;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    > span {
+        font-size: 18px;
+    }
+    
+`
+export const authButton = styled.div`
+    padding: 10px;
+    color: white;
+    background-color: #5f4ab9;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px 1px gray;
+    cursor: pointer;
+    transition: .15s ease-in-out all;
+    &:hover {
+        opacity: 0.9;
+    }
 `
